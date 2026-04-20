@@ -1,0 +1,21 @@
+
+[
+    {
+        "Game_ID" : 1,
+        "Status" : {
+            "Location" : "Court1",
+            "Sport_ID" : 1,
+            "Team1" : {
+                 "Name" : "Cardinals",       
+                 "Score": 10,
+                 "Win" : false
+            },
+            "Team2" : {
+                 "Name" : "Lions",       
+                 "Score": 32,
+                 "Win" : true
+            }
+            
+        }
+    }
+]
