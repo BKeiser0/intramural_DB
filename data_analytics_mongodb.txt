@@ -1,0 +1,67 @@
+
+-- 1)   Find a game by Game_ID
+
+db.Game.findOne({ Game_ID: 5 })
+
+
+
+-- 2)  Find all games played at Court1
+
+db.Game.find({ "Status.Location": "Court1" })
+
+
+
+-- 3)  Find all games where the Cardinals won
+
+db.Game.find({ "Status.Team1.Name": "Cardinals", "Status.Team1.Win": true })
+
+
+
+-- 4) Find all games longer than 60 minutes
+
+db.Game.find({ "Status.Gamelength": { $gt: 60 } })
+
+
+
+-- 5) Get all completed seasons
+
+db.Sport.find({ "Status.Status": "Completed" })
+
+
+
+
+-- 6) Get only the names of all teams (no IDs)
+
+db.Team.find({}, { Name: 1, _id: 0 })
+
+
+
+
+-- 7)  Find the last player added 
+
+db.Player.findOne(
+    {},
+    { P_ID: 1, Name: 1, _id: 0 },
+    { sort: { P_ID: -1 } }
+)
+
+
+-- 8)  Find all games played under Sport_ID 2
+
+db.Game.find({ "Status.Sport_ID": 2 })
+
+
+
+
+-- 9)  Get all sports that have already started 
+
+db.Sport.find({ "Status.Start_Date": { $exists: true } })
+
+
+
+
+-- 10) Get all sports with a null End_Date 
+
+db.Sport.find({ "Status.End_Date": null })
+
+
