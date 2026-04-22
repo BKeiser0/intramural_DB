@@ -1,0 +1,102 @@
+[
+    {
+        "S_ID": 1,
+        "Name": "Volleyball",
+        "Status": {
+            "Status": "Completed",
+            "Semester": "Fall 2024",
+            "Start_Date": "2024-09-01",
+            "End_Date": "2024-12-15"
+        }
+    },
+    {
+        "S_ID": 2,
+        "Name": "Basketball",
+        "Status": {
+            "Status": "Completed",
+            "Semester": "Fall 2024",
+            "Start_Date": "2024-09-01",
+            "End_Date": "2024-12-15"
+        }
+    },
+    {
+        "S_ID": 3,
+        "Name": "Soccer",
+        "Status": {
+            "Status": "Completed",
+            "Semester": "Spring 2025",
+            "Start_Date": "2025-01-15",
+            "End_Date": "2025-05-10"
+        }
+    },
+    {
+        "S_ID": 4,
+        "Name": "Tennis",
+        "Status": {
+            "Status": "Completed",
+            "Semester": "Spring 2025",
+            "Start_Date": "2025-01-15",
+            "End_Date": "2025-05-10"
+        }
+    },
+    {
+        "S_ID": 5,
+        "Name": "Baseball",
+        "Status": {
+            "Status": "Active",
+            "Semester": "Fall 2025",
+            "Start_Date": "2025-09-01",
+            "End_Date": "2025-12-15"
+        }
+    },
+    {
+        "S_ID": 6,
+        "Name": "Swimming",
+        "Status": {
+            "Status": "Active",
+            "Semester": "Fall 2025",
+            "Start_Date": "2025-09-01",
+            "End_Date": "2025-12-15"
+        }
+    },
+    {
+        "S_ID": 7,
+        "Name": "Track",
+        "Status": {
+            "Status": "Active",
+            "Semester": "Fall 2025",
+            "Start_Date": "2025-09-01",
+            "End_Date": "2025-12-15"
+        }
+    },
+    {
+        "S_ID": 8,
+        "Name": "Football",
+        "Status": {
+            "Status": "Upcoming",
+            "Semester": "Spring 2026",
+            "Start_Date": "2026-01-15",
+            "End_Date": null
+        }
+    },
+    {
+        "S_ID": 9,
+        "Name": "Lacrosse",
+        "Status": {
+            "Status": "Upcoming",
+            "Semester": "Spring 2026",
+            "Start_Date": "2026-01-15",
+            "End_Date": null
+        }
+    },
+    {
+        "S_ID": 10,
+        "Name": "Hockey",
+        "Status": {
+            "Status": "Upcoming",
+            "Semester": "Spring 2026",
+            "Start_Date": "2026-01-15",
+            "End_Date": null
+        }
+    }
+]
