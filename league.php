@@ -3,7 +3,7 @@
 //  CONFIG — change these to match your phpMyAdmin setup
 // ══════════════════════════════════════════════════════════
 $DB_HOST = 'localhost';
-$DB_NAME = 'intrumural_db';   // ← your database name
+$DB_NAME = 'IM_db';   // ← your database name
 $DB_USER = 'root';
 $DB_PASS = '';             // ← your password if any
 
