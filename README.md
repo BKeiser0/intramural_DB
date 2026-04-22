@@ -1,1 +1,1 @@
-This is the planning and the localhost sql files for a Intramural Sports Database. 
+This is the planning, mySQL, MongoDB, and PHP files for a Intramural Sports Database. 
